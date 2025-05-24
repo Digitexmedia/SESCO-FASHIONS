@@ -1,0 +1,37 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sescotech Fashions</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="products.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Sescotech Fashions</div>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="admin.html">Admin</a></li>
+      </ul>
+    </nav>
+  </header>  <section class="hero">
+    <div class="hero-text">
+      <h1>Spring Collection 2025</h1>
+      <p>Welcome to Sescotech Fashions — Where Style Begins</p>
+      <a href="#products" class="btn">Shop Now</a>
+    </div>
+  </section>  <section id="products" class="products-section">
+    <h2>Our Products</h2>
+    <div class="product-list" id="product-list">
+      <!-- Products injected by products.js -->
+    </div>
+  </section>  <footer>
+    <p>3245 Grant Street, Longview, TX United Kingdom 7654378</p>
+    <p>Phone: 0160134872 | Email: info@sescotechfashions.com</p>
+    <p>All Rights Reserved. Designed by Sescotech Fashions</p>
+  </footer>
+</body>
+</html>
